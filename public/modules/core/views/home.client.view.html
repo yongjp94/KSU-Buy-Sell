@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <section data-ng-controller="HomeController">
+        <div class="jumbotron text-center">
+            <div class="row">
+
+                <div class="col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3 col-xs-12">
+                    <img alt="KSU" class="img-responsive text-center" src="modules/core/img/brand/logo.png"/>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <p class="lead">
+                    KSU 사고팔기 장터에 오신걸 환영합니다! <br>
+                    Welcome to the KSU Buy & Sell Page!
+                </p>
+            </div>
+            <div class="row">
+                <a href="#!/articles" class="btn btn-info btn-lg" ngClick="{{ signUpFirst() }}">
+                    <span class="glyphicon glyphicon-search"></span> Search Listings
+                </a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <h2 class="text-center">About KSU Buy & Sell...</h2>
+                <p>KSU Buy & Sell page exists to provide space for users at University of Washington, where they can easily search and create posts in order to buy or sell items. This application will allow the buyers and sellers to escape the previous, chaotic Facebook group template and have a more wonderful experience with their shopping/selling experience. Users can quickly and easily search through items using various filters and categories.</p><br>
+                <h2 class="text-center">KSU 사고팔기에 관하여...</h2>
+                <p>KSU 사고팔기 장터는 유덥에 재학중인 학생들이 기존의 혼잡하고 사용하기 불편한 페이스북 플랫폼의 사고파기 장터들을 벗어나 좀더 빠르고 간편한 사고팔기 활동을 하는데에 도움을 주기위해 설립되었습니다. 많은 필터들과 카테고리를 이용하며 누구나 손쉽게 원하는 물건을 찾을 수 있습니다.</p>
+            </div>
+            <br>
+            <div class="col-md-6">
+            <ul class="list-group text-center">
+                <li class="list-group-item">
+                    Click
+                    <em>Signup</em>
+                    to get started.
+                </li>
+                <li class="list-group-item">
+                    Configure your app to work with your social accounts, by editing the
+                    <em>/config/env/*.js</em>
+                    files.
+                </li>
+                <li class="list-group-item">
+                    Edit your users module.
+                </li>
+                <li class="list-group-item">
+                    Add new CRUD modules.
+                </li>
+                <li class="list-group-item">
+                    Have fun...
+                </li>
+            </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-3">
+                <h2>
+                    <strong>M</strong>ongoDB
+                </h2>
+                <p><a target="_blank" href="http://mongodb.org/">MongoDB</a> is a database. MongoDB's <a target="_blank" href="http://docs.mongodb.org/manual/">great manual</a> is the place to get started with NoSQL and MongoDB.</p>
+            </div>
+            <div class="col-md-3">
+                <h2>
+                    <strong>E</strong>xpress
+                </h2>
+                <p><a target="_blank" href="http://expressjs.com/"> Express</a> is an app server. Check out <a target="_blank" href="http://expressjs.com/guide.html">The Express Guide</a> or <a target="_blank" href="http://stackoverflow.com/questions/8144214/learning-express-for-node-js">StackOverflow</a> for more info.</p>
+            </div>
+            <div class="col-md-3">
+                <h2>
+                    <strong>A</strong>ngularJS
+                </h2>
+                <p>AngularJS is web app framework. <a target="_blank" href="http://angularjs.org/">Angular's website</a> offers a lot. The <a target="_blank" href="http://www.thinkster.io/">Thinkster Popular Guide</a> and <a target="_blank" href="https://egghead.io/">Egghead Videos</a> are great resources.</p>
+            </div>
+            <div class="col-md-3">
+                <h2>
+                    <strong>N</strong>ode.js
+                </h2>
+                <p><a target="_blank" href="http://nodejs.org/">Node.js</a> is a web server. Node's website and this <a target="_blank" href="http://stackoverflow.com/questions/2353818/how-do-i-get-started-with-node-js">stackOverflow thread</a> offer excellent starting points to get to grasps with node.</p>
+            </div>
+        </div>
+        <div class="well">
+            <h3 class="text-center">Music</h3>
+            <p>
+                <iframe class="text-center" width="50%" height="20%" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/64711380&amp;auto_play=true&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+            </p>
+        </div>
+        <script src="/public/modules/core/css/core.css"></script>
+    </section>
+</html>

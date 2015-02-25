@@ -1,0 +1,33 @@
+.content {
+	margin-top: 50px;
+}
+.undecorated-link:hover {
+	text-decoration: none;
+}
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+	display: none !important;
+}
+.ng-invalid.ng-dirty {
+	border-color: #FA787E;
+}
+.ng-valid.ng-dirty {
+	border-color: #78FA89;
+}
+
+.jumbotron {
+    margin-bottom: 0px;
+    height: 350px;
+    background-position: 0% 25%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 5em;
+    color: white;
+    text-shadow: black 0.3em 0.3em 0.3em;
+    text-emphasis-color: black;
+    background: url('../img/backgrounds/jumbotron.png') no-repeat center center;
+}
+
+iframe {
+    margin: 0 auto;
+    display: block;
+}
